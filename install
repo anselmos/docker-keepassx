@@ -1,0 +1,5 @@
+#!/bin/bash
+cp keepassx.desktop /usr/share/applications/
+cp keepassx.png /usr/share/icons/hicolor/32x32/apps/
+cp run /usr/bin/keepassx
+mkdir $HOME/.keepassx/

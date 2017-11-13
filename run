@@ -1,0 +1,11 @@
+#!/bin/bash
+IMAGE_NAME=anselmos/keepassx:2.0.alpha2
+xhost local:$USER
+
+docker run \
+    -d \
+    -e DISPLAY=unix$DISPLAY \
+    --privileged \
+    -v /tmp/.X11-unix:/tmp/.X11-unix \
+    -v $HOME/.keepassx/:/home/developer/data/ \
+    $IMAGE_NAME

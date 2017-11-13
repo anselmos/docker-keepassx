@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Keepassx
+GenericName=Keepassx
+Comment=Keepassx to store your keyes
+Keywords=keys;store;security;
+Icon=keepassx
+TryExec=keepassx
+Exec=keepassx
+Categories=System;Monitor;
+X-GNOME-Autostart-Delay=0
+StartupNotify=true
